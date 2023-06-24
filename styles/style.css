@@ -51,11 +51,20 @@ body  {
   gap: 82px;
 }
 
+.apresentacao__pagina__sobremim{
+  padding: 5.5% 15%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 82px;
+
+}
+
 .apresentacao__conteudo {
   width: 50%;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 20px;
 }
 
 .apresentacao__conteudo__titulo {
@@ -134,7 +143,13 @@ body  {
 
 .apresentacao {
   flex-direction: column-reverse;
-  padding: 5%;
+  padding: 10% 5%;
+  gap: 40px;
+}
+.apresentacao__pagina__sobremim {
+  flex-direction: column-reverse;
+  align-items: center;
+  padding: 10% 5%;
 }
 
 .apresentacao__conteudo {
