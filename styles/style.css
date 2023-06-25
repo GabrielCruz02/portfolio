@@ -81,7 +81,7 @@ body  {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 50%;
+  width: 70%;
 }
 
 .curriculo__conteudo1__titulo {
