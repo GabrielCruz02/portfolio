@@ -1,0 +1,93 @@
+@import url('styles/base.css');
+
+:root {
+	--cor-principal: #2C3639;
+	--cor-textos: #DCD7C9;
+	--cor-destaques: #A27B5C;
+	--cor-hover: #3F4E4F;
+	
+	--fonte-primaria: 'Krona One', sans-serif;
+	--font-secundaria: 'Montserrat', sans-serif;
+  }
+
+	.curriculo {
+		padding: 6.5% 15%;
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+		gap: 50px;
+	}
+	
+	.curriculo__conteudo1 {
+		display: flex;
+		flex-direction: column;
+		gap: 77px;
+		width: 30%
+	}
+	
+	.curriculo__sobremim{
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		width: 80%;
+	}
+	
+	.curriculo__experiencia{
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		width: 70%;
+	}
+	
+	.curriculo__conteudo1__titulo {
+		font-size: 1.25rem;
+		font-family: var(--fonte-primaria);
+	}
+	
+	.curriculo__conteudo1__subtitulo{
+		font-size: 1rem;
+		font-family: var(--fonte-primaria);
+	}
+	
+	.curriculo__conteudo1__paragrafo{
+		font-size: 1rem;
+		font-family: var(--font-secundaria);
+	}
+	
+	.curriculo__conteudo2{
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+	}
+	
+	.curriculo__conteudo2__subtitulo{
+		font-size: 1rem;
+		font-family: var(--fonte-primaria);
+	}
+	
+	.curriculo__conteudo2__paragrafo{
+		font-size: 1rem;
+		font-family: var(--font-secundaria);
+	}
+	
+	.curriculo__contatos{
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		width: auto;
+	}
+	
+	.curriculo__tecnologias{
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		width: auto;
+	}
+	
+	.curriculo__educacao{
+		display: flex;
+		flex-direction: column;
+		width: 50%;
+		gap: 20px;
+	}
+
